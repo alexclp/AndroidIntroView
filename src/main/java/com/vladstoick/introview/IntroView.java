@@ -6,7 +6,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.actionbarsherlock.app.SherlockFragment;
@@ -17,11 +16,15 @@ import java.util.ArrayList;
  * Created by Vlad on 10/15/13.
  */
 public class IntroView extends SherlockFragment implements Button.OnClickListener{
+    public interface OnSkipClickListener{
+        public void onSkipClicked();
+    }
     IntroPagerAdapter mAdapter;
     ViewPager mViewPager;
     Button mSkipButton;
     TextView mPageTextView;
     int size;
+    private OnSkipClickListener onSkipClickListener;
     public IntroView(){
 
     }
@@ -59,6 +62,10 @@ public class IntroView extends SherlockFragment implements Button.OnClickListene
 
     @Override
     public void onClick(View v) {
+        onSkipClickListener.onSkipClicked();
+    }
 
+    public void setOnSkipClickListener(OnSkipClickListener onSkipClickListener) {
+        this.onSkipClickListener = onSkipClickListener;
     }
 }

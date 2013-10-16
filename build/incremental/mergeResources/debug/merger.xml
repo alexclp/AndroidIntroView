@@ -4359,6 +4359,16 @@ true
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
+                name="defaultfragment"
+                path="C:\Programming\Android\Stiri-din-Android\libraries\IntroView\src\main\res\layout\defaultfragment.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_intro"
+                path="C:\Programming\Android\Stiri-din-Android\libraries\IntroView\src\main\res\layout\fragment_intro.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="main"
                 path="C:\Programming\Android\Stiri-din-Android\libraries\IntroView\src\main\res\menu\main.xml"
                 qualifiers=""
@@ -4431,16 +4441,6 @@ true
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
-            <file
-                name="fragment_intro"
-                path="C:\Programming\Android\Stiri-din-Android\libraries\IntroView\src\main\res\layout\fragment_intro.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="defaultfragment"
-                path="C:\Programming\Android\Stiri-din-Android\libraries\IntroView\src\main\res\layout\defaultfragment.xml"
-                qualifiers=""
-                type="layout" />
         </source>
         <source path="C:\Programming\Android\Stiri-din-Android\libraries\IntroView\build\res\rs\debug" />
     </dataSet>
