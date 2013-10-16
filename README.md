@@ -23,7 +23,7 @@ Add the fragment into your activity xml
     android:layout_height="match_parent"/>
 ```
 
-Add the following code into your activity onCreate()
+Add the following code into your activity onCreate(). Change the IntroPage elements with suitable content.
 
 ```java
 IntroView introView = (IntroView) getSupportFragmentManager().findFragmentById(R.id.introview);
