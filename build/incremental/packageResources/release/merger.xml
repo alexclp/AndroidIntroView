@@ -24,11 +24,6 @@
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
-                name="activity_main"
-                path="C:\Programming\Android\Stiri-din-Android\libraries\IntroView\src\main\res\layout\activity_main.xml"
-                qualifiers=""
-                type="layout" />
-            <file
                 name="main"
                 path="C:\Programming\Android\Stiri-din-Android\libraries\IntroView\src\main\res\menu\main.xml"
                 qualifiers=""
@@ -104,6 +99,11 @@
             <file
                 name="fragment_intro"
                 path="C:\Programming\Android\Stiri-din-Android\libraries\IntroView\src\main\res\layout\fragment_intro.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="defaultfragment"
+                path="C:\Programming\Android\Stiri-din-Android\libraries\IntroView\src\main\res\layout\defaultfragment.xml"
                 qualifiers=""
                 type="layout" />
         </source>

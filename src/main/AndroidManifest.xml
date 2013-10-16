@@ -12,11 +12,6 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
-        <activity
-            android:name="com.vladstoick.introview.MainActivity"
-            android:label="@string/app_name" >
-        </activity>
-    </application>
+        android:theme="@style/AppTheme" ></application>
 
 </manifest>

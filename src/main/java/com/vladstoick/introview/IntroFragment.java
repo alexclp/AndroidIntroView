@@ -13,6 +13,7 @@ import com.actionbarsherlock.app.SherlockFragment;
  */
 public class IntroFragment extends SherlockFragment {
     public static final String TAG_ITEM = "TAGITEM";
+
     TextView mIntroTextView;
     ImageView mImageView;
     @Override

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/intro_container"
+        android:layout_above="@+id/infoIntroRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" />
+    <RelativeLayout
+        android:layout_margin="16dp"
+        android:id="@+id/infoIntroRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true" >
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/pageTextView"
+            android:layout_width="wrap_content"
+            android:text=""
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/skipButton"
+            android:text="Skip"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>
