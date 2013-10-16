@@ -54,6 +54,7 @@ public class IntroView extends SherlockFragment implements Button.OnClickListene
         size = pages.size();
         mAdapter = new IntroPagerAdapter(getChildFragmentManager(),pages);
         mViewPager.setAdapter(mAdapter);
+        mPageTextView.setText(1 + " / " + size );
     }
 
     @Override
