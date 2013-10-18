@@ -1,14 +1,14 @@
 AndroidIntroView
 ================
 
-Easily create beautiful tutorials for your Androd apps.
+Easily create beautiful tutorials for your Android apps.
 
 ![screenshot](https://raw.github.com/vladstoick/AndroidIntroView/master/screenshots/ss1.png)
 
 Usage 
 ============
 
-Add the plugin in your project ( Gradle )
+Add the plugin in your project (Gradle)
 
 ```gradle
 compile "com.android.support:support-v4:18.0.+"
